@@ -1,0 +1,29 @@
+{
+  "name": "wowmarkdown",
+  "version": "0.0.1",
+  "description": "Convert image to base64, then insert back.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "writing": "./node_modules/.bin/gulp"
+  },
+  "author": "guangle.ge (gguangle@gmail.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leer168/wowmarkdown.git"
+  },
+  "keywords": [
+    "markdown",
+    "base64"
+  ],
+  "dependencies": {
+    "browser-sync": "^2.12.3",
+    "cheerio": "^0.20.0",
+    "chokidar": "^1.4.3",
+    "commander": "^2.9.0",
+    "gulp": "^3.9.1",
+    "highlight.js": "^9.3.0",
+    "marked": "^0.3.5"
+  }
+}
